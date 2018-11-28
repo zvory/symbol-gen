@@ -4,7 +4,14 @@
   "description": "Make symbols easily: s`foo`",
   "main": "index.js",
   "repository": "https://github.com/zvory/symbol-gen",
-  "author": "Alex Zvorygin",
+  "keywords": [
+    "symbol",
+    "sym",
+    "es6 symbol",
+    "template strings",
+    "es6 templates"
+  ],
+  "author": "Alex Zvorygin <grafetu@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "jest": "^23.6.0"
