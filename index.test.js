@@ -8,7 +8,16 @@ describe('s', () => {
 
   it ('has the right description', () => {
     const symbol = s`hello`
-    expect(symbol.toString()).toBe('Symbol(foo)')
+    expect(symbol.toString()).toEqual('Symbol(hello)')
+  })
+
+  it ('ignores template expressions', () => {
+    const symbol = s`hello ${1+2} asd`
+    expect(symbol.toString()).toEqual('Symbol(hello  asd)')
+  })
+
+  it (`is also exported as 'sym'`, () => {
+    expect(sym).toBe(s)
   })
 
 })
