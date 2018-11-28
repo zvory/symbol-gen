@@ -1,0 +1,15 @@
+{
+  "name": "symbol-gen",
+  "version": "1.0.0",
+  "description": "Make symbols easily: s`foo`",
+  "main": "index.js",
+  "repository": "https://github.com/zvory/symbol-gen",
+  "author": "Alex Zvorygin",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
